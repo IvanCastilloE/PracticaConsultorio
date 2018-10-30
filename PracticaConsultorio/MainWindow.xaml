@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:PracticaConsultorio"
         mc:Ignorable="d"
         Title="MainWindow" Height="527" Width="838">
-  <Grid>
-    <ListBox x:Name="lstPacientes" HorizontalAlignment="Left" Height="368" Margin="10,10,0,0" VerticalAlignment="Top" Width="150" SelectionChanged="lstPacientes_SelectionChanged"/>
+    <Grid>
+        <ListBox x:Name="lstPacientes" HorizontalAlignment="Left" Height="368" Margin="10,10,0,0" VerticalAlignment="Top" Width="150" SelectionChanged="lstPacientes_SelectionChanged"/>
     <Button x:Name="btnCrearNuevoPaciente" Content="Nuevo Paciente" HorizontalAlignment="Left" Height="22" Margin="10,383,0,0" VerticalAlignment="Top" Width="150" Click="btnCrearNuevoPaciente_Click"/>
     <Button x:Name="btnNuevaConsulta" Content="Nueva Consulta" HorizontalAlignment="Left" Margin="165,10,0,0" VerticalAlignment="Top" Width="102" IsEnabled="False" Click="btnNuevaConsulta_Click"/>
     <Grid x:Name="gridNuevoPaciente" HorizontalAlignment="Left" Height="421" Margin="193,35,0,0" VerticalAlignment="Top" Width="605" Visibility="Collapsed">
@@ -49,6 +49,7 @@
       <TextBox x:Name="txtFechaConsulta" HorizontalAlignment="Left" Height="23" Margin="21,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
       <Button x:Name="btnGuardarConsulta" Content="Guardar Consulta" HorizontalAlignment="Left" Margin="496,362,0,0" VerticalAlignment="Top" Width="127" Click="btnGuardarConsulta_Click"/>
     </Grid>
+        <Button x:Name="btnHistorialConsulta" Content="Historial Consultas" HorizontalAlignment="Left" Margin="295,10,0,0" VerticalAlignment="Top" Width="119" Click="btnHistorialConsulta_Click"/>
 
-  </Grid>
+    </Grid>
 </Window>

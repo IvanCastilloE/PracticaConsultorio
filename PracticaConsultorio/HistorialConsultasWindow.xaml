@@ -1,0 +1,22 @@
+﻿<Window x:Class="PracticaConsultorio.HistorialConsultasWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaConsultorio"
+        mc:Ignorable="d"
+        Title="HistorialConsultasWindow" Height="534.146" Width="415.854">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="46*"/>
+            <ColumnDefinition Width="179*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Nombre Paciente" VerticalAlignment="Top" RenderTransformOrigin="-2.511,-1.814"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="441" Margin="10,52,0,0" VerticalAlignment="Top" Width="388" Grid.ColumnSpan="3">
+            <StackPanel Name="stckHistorialConsultas"/>
+        </ScrollViewer>
+
+    </Grid>
+</Window>
