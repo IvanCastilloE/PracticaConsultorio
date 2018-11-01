@@ -13,7 +13,7 @@
             <ColumnDefinition Width="179*"/>
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Nombre Paciente" VerticalAlignment="Top" RenderTransformOrigin="-2.511,-1.814"/>
+        <TextBlock x:Name="lblNombrePaciente" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Nombre Paciente" VerticalAlignment="Top" RenderTransformOrigin="-2.511,-1.814"/>
         <ScrollViewer HorizontalAlignment="Left" Height="441" Margin="10,52,0,0" VerticalAlignment="Top" Width="388" Grid.ColumnSpan="3">
             <StackPanel Name="stckHistorialConsultas"/>
         </ScrollViewer>
